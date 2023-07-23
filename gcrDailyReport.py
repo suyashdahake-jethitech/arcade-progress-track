@@ -137,7 +137,7 @@ if (sidebarContent == "Progress Report"):
     with(header):
         st.image('images/banner.png', use_column_width=True)
         st.markdown(
-            "<h1 style='text-align: center'><b>Daily Progress Report 🌩 <br> SVKM's NMIMS MPSTME</b></h1>", unsafe_allow_html=True)
+            "<h1 style='text-align: center'><b>Daily Progress Report 🌩 <br> BITW</b></h1>", unsafe_allow_html=True)
         st.write("Last Updated On: " + date + "-2022")
         st.write("#####")
 
@@ -224,7 +224,7 @@ elif (sidebarContent == "Milestone Leaderboard"):
     with(header):
         st.image('images/banner.png', use_column_width=True)
         st.markdown(
-            "<h1><b>Milestone Leaderboard 🏃‍♂️<br> SVKM's NMIMS MPSTME</b></h1>", unsafe_allow_html=True)
+            "<h1><b>Milestone Leaderboard 🏃‍♂️<br> BITW</b></h1>", unsafe_allow_html=True)
         st.write("Last Updated On: " + date + "-2022")
         st.write("#####")
 
@@ -403,20 +403,20 @@ elif (sidebarContent == "Generate Badge"):
         * If you upload a landscape or out of shape image, it would be resized to 1:1
         * According to your Milestone, your picture will be automatically applied with a badge
         * Right click on the Image and select save image as to Download the file
-        * Then do share on your social media handles by tagging us as your Facilitator [Chinmay Mulay](https://www.linkedin.com/in/mulay) and Google Cloud India, also use `#GoogleCloudReady` tag. Google Cloud team closely monitor this tag :smile: :tada:
+        * Then do share on your social media handles by tagging us as your Facilitator [Suyash Dahake](https://www.linkedin.com/in/suyash-dahake/) [Tushar H] and Google Cloud India, also use `#GoogleCloudReady` tag. Google Cloud team closely monitor this tag :smile: :tada:
         """)
 
 else:
     with(header):
         st.image('images/banner.png', use_column_width=True)
         st.markdown(
-            "<h2><b>GoogleCloudReady Program Resources</b></h2>", unsafe_allow_html=True)
+            "<h2><b>Google Cloud Arcade Facilitator Program Resources</b></h2>", unsafe_allow_html=True)
         st.markdown("<hr>", unsafe_allow_html=True)
 
-        st.subheader("**Program Deadline: June 25, 2022**")
+        st.subheader("**Program Deadline: Coming soon**")
 
         st.subheader("**Important Links**")
-        st.write("🌐 [GCR Program Site](https://bit.ly/crf-site)")
+        st.write("🌐 [GOOGLE CLOUD ARCADE Facilitator '23 Program Site](https://rsvp.withgoogle.com/events/arcade-facilitator/points-system)")
 
-        st.subheader("**Prizes**")
-        st.image('images/prizes.png', use_column_width=True)
+        # st.subheader("**Prizes**")
+        # st.image('images/prizes.png', use_column_width=True)
